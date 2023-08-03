@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&display=swap');
+/* font-family: 'Edu SA Beginner', cursive; */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+
+#bg {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #34a;
+  background-image: url(roselia_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-transition: 1.25s;
+  -moz-transition: 1.25s;
+  -o-transition: 1.25s;
+  transition: 1.25s;
+}
+#logo {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  background-color: #bbb;
+  color: white;
+}
+
+body {
+  font-family: "Edu SA Beginner", cursive;
+}
+
+header {
+  z-index: 9;
+  background-color: #34a;
+  font-weight: 700;
+  padding: 15px;
+  font-size: xx-large;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 10px 15px #bbbbbb80;
+  display: block;
+  text-align: center;
+}
+footer {
+  z-index: 8;
+  background-color: #34a;
+  font-weight: 700;
+  padding: 15px;
+  font-size: medium;
+  text-align: center;
+}
+
+.baseURL:link {
+  text-decoration: none;
+  color: white;
+}
+.baseURL:hover {
+  text-decoration: none;
+  color: #bbb;
+}
+.baseURL:active {
+  text-decoration: none;
+  color: #818;
+}
+.baseURL:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.floatfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.head {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-image and background-attachment will be in html */
+}
+
+/* SITE-WIDE RESPONSIVE LAYOUTS */
+/* inherited from ReactOSPH/ReactSquad */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: large;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1080px) {
+  body {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 2160px) {
+  body {
+    font-size: xx-large;
+  }
+}

@@ -39,21 +39,28 @@ body {
   text-align: center;
 }
 
-a:link {
+.baseURL:link {
   text-decoration: none;
   color: white;
 }
-a:hover {
+.baseURL:hover {
   text-decoration: none;
   color: #bbb;
 }
-a:active {
+.baseURL:active {
   text-decoration: none;
   color: #793a80;
 }
+.baseURL:visited {
+  text-decoration: none;
+  color: white;
+}
 
 .main {
-  padding: 250px;
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 250px 0;
 }
 
 .text {
@@ -84,18 +91,44 @@ a:active {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  transition: height 1.25s;
+  -webkit-transition: 1.25s;
+  -moz-transition: 1.25s;
+  -o-transition: 1.25s;
+  transition: 1.25s;
+}
+#spinner {
+  width: 70px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 900px) {
-  .main {
-    padding: 250px 0;
-  }
-}
 
 @media (prefers-color-scheme: dark) {
   .text {
     background-color: #00000040;
+  }
+}
+
+/* SITE-WIDE RESPONSIVE LAYOUTS */
+/* inherited from ReactOSPH/ReactSquad */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1080px) {
+  body {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 2160px) {
+  body {
+    font-size: xx-large;
   }
 }
