@@ -25,6 +25,27 @@
         width: .9em;
         height: auto;
       }
+      .skip {
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        background-color: #34a;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px #bbbbbb80;
+        cursor: pointer;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+      }
+      .skip:hover {
+        background-color: #bbb;
+      }
+      .skip-btn {
+        max-width: 100%;
+        height: auto;
+      }
     </style>
     <meta name="og:type" content="website">
     <meta name="og:title" content="ArcanaTheIllusionist's Twitch Anniversary">
@@ -43,6 +64,27 @@
   <body onload="load()">
     <div id="bg">
       <img id="logo" src="roselia_logo.svg" alt="">
+    </div>
+    <div id="notice">
+      <div id="noticeDisappear" style="width: 875px; max-width: 100%; margin: 0 auto;">
+        <h2>a message from ArcanaTheIllusionist</h2>
+        <p>
+          My 24 hours anniversary stream was cut short thanks to the internet not cooperating with me properly,
+          first it cuts my stream, the second time the internet got lots all the sudden but there is no red led
+          on the modem, but nevertheless, although there are some problems and such, but I think it's also a
+          sign for me to end since my eyes are hurting as hell and nobody is watching anymore, I feel lonely and
+          depress at the same time cause I really thought I can gather a few people to watch since it's one of
+          my great things which is my anniversary but I expected too much, well I been through a lot of things,
+          hardships and pain, for the past more than 4 years of my life as a content creator, I seen various
+          pain, which can be really traumatizing. but overall, I delivered a successful stream, and I got to meet
+          new friends, fellow teammates and returnee viewers which really made me happy, especially on the
+          karaoke session :) as per protocol, I'll be on hiatus in streaming for a while since I need to
+          recuperate my body of the long period of stream, but I'll be streaming again by the end of august as
+          the month end stream so see you guys there! Arcana Fading to shadows for now!
+        </p>
+        <br>
+        <button class="skip" onclick="clearNotice()"><img class="skip-btn" src="skip.svg" alt="click here to continue"></button>
+      </div>
     </div>
     <div style="padding: 15px; background-color: red; text-align: center; font-weight: bold; display: none;">
       More details will be issued later.
