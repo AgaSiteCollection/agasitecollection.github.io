@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&display=swap');
+/* font-family: 'Edu SA Beginner', cursive; */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+
+#bg {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #34a;
+  background-image: url(../arcanatheillusionist/roselia_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-transition: 1.25s;
+  -moz-transition: 1.25s;
+  -o-transition: 1.25s;
+  transition: 1.25s;
+}
+#logo {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  background-color: #bbb;
+  background-image: url(RinkoYukina.png);
+  background-blend-mode: normal;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+}
+
+body {
+  background-color: #131a3fe0;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+.content {
+  width: 750px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 250px 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #34a;
+  border: none;
+  border-radius: 1000px;
+  color: inherit;
+  padding: 10px 25px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #00000080;
+}
+button:hover {
+  background-color: #bbb;
+  color: #34a;
+}
+
+/* SITE-WIDE RESPONSIVE LAYOUTS */
+/* inherited from ReactOSPH/ReactSquad */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: large;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1080px) {
+  body {
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 2160px) {
+  body {
+    font-size: xx-large;
+  }
+}
