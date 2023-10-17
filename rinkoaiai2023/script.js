@@ -8,7 +8,7 @@ function load() {
 }
 
 function timer() {
-  const time = new Date('October 17, 2023 21:30:00 GMT+08:00').getTime();
+  const time = new Date('October 17, 2023 21:00:00 GMT+08:00').getTime();
   const timer = setInterval(function() {
     const now = new Date().getTime();
     const distance = time - now;
