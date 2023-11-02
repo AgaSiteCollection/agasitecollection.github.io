@@ -21,5 +21,5 @@ function timer() {
       clearInterval(timer);
       document.getElementById("time").innerHTML = "00:00:00:00";
     }
-  }, 1000);
+  }, 0);
 }
