@@ -1,0 +1,226 @@
+@import url("https://thebelovedmoon.github.io/assets/css/_main.css"); /* base */
+
+@import url('https://fonts.cdnfonts.com/css/halimun');
+
+#splashBlock {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #3d374c;
+  background-image: url("https://vtresmarias.github.io/media/images/backgrounds/vtm_3.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  top: 0;
+  z-index: 725;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 4px 100px 16px #3d374c80;
+  -webkit-transition: 1.25s;
+  -moz-transition: 1.25s;
+  -o-transition: 1.25s;
+  transition: 1.25s;
+}
+#splashLogo {
+  padding: 1rem;
+  -webkit-transition: 1.25s;
+  -moz-transition: 1.25s;
+  -o-transition: 1.25s;
+  transition: 1.25s;
+}
+
+.cosBtn {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  padding: 1rem;
+  aspect-ratio: 1 / 1;
+  background-color: #3d374c;
+  color: white;
+  border-radius: 50%;
+  font-size: larger;
+  -webkit-filter: drop-shadow(2px 4px 16px #3d374c80);
+  filter: drop-shadow(2px 4px 16px #3d374c80);
+}
+.cosBtn:hover {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  background-color: #dcc6bb;
+  color: #3d374c;
+}
+
+.FAB {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.FAB > .cosBtn {
+  margin-left: 0.5rem;
+}
+
+header {
+  position: absolute;
+  width: 100vw;
+  background: linear-gradient(#dcc6bba0, #00000000);
+  top: 0;
+  z-index: 15;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  width: 100vw;
+  padding: 15px;
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  text-align: center;
+  background-color: #dcc6bb;
+  /* background-image: url("https://bataan.gov.ph/wp-content/smush-webp/2021/09/bataan-seal-white-150x150.png.webp");
+  background-size: 10%;
+  background-position: 75% center;
+  background-repeat: no-repeat; */
+  color: #3d374c;
+  letter-spacing: normal !important;
+}
+footer > * {
+  display: block;
+}
+
+.municipalityInline {
+  display: inline-block;
+  width: 0.875rem;
+  aspect-ratio: 1 / 1;
+}
+
+.tourAnnounce {
+  width: 100vw;
+  background-color: #dcc6bb;
+  background-image: url("../images/ca8f52e7f75a84b1d4ac46c5b45e1855.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.tourAnnounce > div {
+  background-color: #3d374cd8;
+  color: white;
+}
+.tourAnnounce > div > div {
+  width: 50rem;
+  max-width: 100%;
+  padding: 7.5rem 3rem 5rem 3rem;
+}
+.tourAnnounce > div > div > * {
+  margin: 0.5rem 0;
+  text-align: left !important;
+}
+.tourAnnounce > div > div > h1 {
+  font-family: "Halimun", cursive;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-filter: drop-shadow(2px 4px 16px #ffffff80);
+  filter: drop-shadow(2px 4px 16px #ffffff80);
+}
+.tourAnnounce > div > div > div {
+  margin-top: 1rem;
+  -webkit-filter: drop-shadow(2px 4px 16px #ffffff80);
+  filter: drop-shadow(2px 4px 16px #ffffff80);
+}
+.tourAnnounce > div > div > div > .cosBtn {
+  margin: 1rem 0.5rem 0 0;
+}
+@media screen and (max-width: 500px) {
+  .tourAnnounce > div > div {
+    padding: 7.5rem 1.5rem 5rem 1.5rem;
+  }
+}
+
+.introBlock {
+  /* width: 100vw;
+  height: 100vh; */
+  background-color: #dcc6bb;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/da/Balanga_Poblacion%2C_Plaza_Mayor_%28Aguirre%2C_Balanga%2C_Bataan%3B_05-19-2023%29.jpg  ");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.introBlock > div {
+  background-color: #dcc6bbd8;
+}
+.introBlock > div > div {
+  width: 50rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20rem 1.5rem;
+  text-align: center;
+}
+
+.exploreBataan {
+  background-color: #3d374c;
+  color: white;
+}
+.exploreBataan > div {
+  width: 75rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  -webkit-filter: drop-shadow(2px 4px 16px #dcc6bb80);
+  filter: drop-shadow(2px 4px 16px #dcc6bb80);
+}
+.exploreBataan > div > * {
+  margin: 1rem 0;
+}
+.exploreBataan > div > .logoIcons > img {
+  display: inline-block;
+  margin: 1rem;
+  width: 7.5rem;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  pointer-events: all;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.beholdBataan-icon {
+  background-color: white;
+  border-radius: 50%;
+}
+
+#showPostDialog {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: none; /* must be flex */
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 50;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -o-transition: 0.75s;
+  transition: 0.75s;
+}
+#showPostDialog > #postViewer {
+  position: relative;
+  width: 50rem;
+  max-width: 100%;
+  height: 75vh;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-filter: drop-shadow(2px 4px 16px #3d374c80);
+  filter: drop-shadow(2px 4px 16px #3d374c80);
+}
+#showPostDialog > span {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.25rem;
+  z-index: 5;
+}
