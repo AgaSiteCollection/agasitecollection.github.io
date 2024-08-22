@@ -15,9 +15,9 @@ function readPost(mun) {
   //     break;
   //   case "Orion":
   //     break;
-  //   case "Pilar":
-  //     break;
   //   case "Balanga":
+  //     break;
+  //   case "Pilar":
   //     break;
   //   case "Mariveles":
   //     break;

@@ -32,6 +32,11 @@
   transition: 1.25s;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  font-style: italic;
+}
+
 .cosBtn {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
   padding: 1rem;
@@ -59,6 +64,9 @@
 }
 .FAB > .cosBtn {
   margin-left: 0.5rem;
+  -webkit-filter: unset !important;
+  filter: unset !important;
+  box-shadow: 0 0 4px #00000024, 0 4px 8px #00000047;
 }
 
 header {
@@ -158,6 +166,9 @@ footer > * {
   padding: 20rem 1.5rem;
   text-align: center;
 }
+.introBlock > div > div > h2 {
+  text-align: center;
+}
 
 .exploreBataan {
   background-color: #3d374c;
@@ -174,6 +185,9 @@ footer > * {
 }
 .exploreBataan > div > * {
   margin: 1rem 0;
+}
+.exploreBataan > div > h2 {
+  text-align: center;
 }
 .exploreBataan > div > .logoIcons > img {
   display: inline-block;
@@ -223,4 +237,36 @@ footer > * {
   bottom: 0;
   margin-bottom: 1.25rem;
   z-index: 5;
+  -webkit-filter: unset !important;
+  filter: unset !important;
+  box-shadow: 0 0 4px #00000024, 0 4px 8px #00000047;
+}
+
+#roadmap {
+  background-color: #3d374c;
+  background-image: url("https://travelthroughparadise.com/images/Articles/Mt_Samat_Shrine_Of_Valor/Shrine%20of%20Valor%20Mount%20Samat-min.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+#roadmap > div {
+  background-color: #3d374cd8;
+}
+#roadmap > div > div {
+  width: 50rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15rem 1.5rem;
+}
+#roadmap > div > div > * {
+  margin: 1rem 0;
+}
+#roadmap > div > div > h1 {
+  font-weight: 900;
+}
+#roadmap > div > div > div > * {
+  margin: 0 !important;
+  text-align: left;
 }
