@@ -104,12 +104,3 @@ img, video {
   width: 50rem;
   z-index: 25;
 }
-.cosMariaFrame > .cosMaria {
-  width: 50rem;
-  max-width: 100%;
-  height: auto;
-  padding: 5.6rem;
-}
-#cosMaria {
-  border-radius: 50%;
-}
